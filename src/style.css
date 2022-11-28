@@ -1,1 +1,77 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  background-color: white;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.number {
+  font-size: 70px;
+  margin: auto;
+}
+
+.heart:before {
+  content: "♥";
+  color: red;
+  font-size: 70px;
+  margin-right: 200px;
+  margin-top: -20px;
+}
+.heart:after {
+  content: "♥";
+  color: red;
+  font-size: 70px;
+  margin-left: 140px;
+  margin-bottom: -20px;
+  transform: rotate(180deg);
+}
+.spade:before {
+  content: "♠";
+  color: black;
+  font-size: 70px;
+  margin-right: 200px;
+  margin-top: -20px;
+}
+.spade:after {
+  content: "♠";
+  color: black;
+  font-size: 70px;
+  margin-left: 140px;
+  margin-bottom: -20px;
+  transform: rotate(180deg);
+}
+.diamond:before {
+  content: "♦";
+  color: red;
+  font-size: 70px;
+  margin-right: 200px;
+  margin-top: -20px;
+}
+.diamond:after {
+  content: "♦";
+  color: red;
+  font-size: 70px;
+  margin-left: 140px;
+  margin-bottom: -20px;
+  transform: rotate(180deg);
+}
+.club:before {
+  content: "♣";
+  color: black;
+  font-size: 70px;
+  margin-right: 200px;
+  margin-top: -20px;
+}
+.club:after {
+  content: "♣";
+  color: black;
+  font-size: 70px;
+  margin-left: 140px;
+  margin-bottom: -20px;
+  transform: rotate(180deg);
+}
