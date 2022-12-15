@@ -75,3 +75,12 @@ body {
   margin-bottom: -20px;
   transform: rotate(180deg);
 }
+
+.heart,
+.diamond {
+  color: red;
+}
+.spade,
+.club {
+  color: black;
+}
